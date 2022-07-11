@@ -3,8 +3,6 @@ mkdir .dookscript
 cd .dookscript || exit
 sudo apt-get install apparmor-* net-tools git apt-transport-https cmatrix neofetch firejail-* curl gpug -y
 sudo apt-get purge apparmor-notify -y --autoremove
-wget --https-only https://downloads.1password.com/linux/debian/amd64/stable/1password-latest.deb
-sudo dpkg -i 1password-latest.deb
 wget --https-only https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
