@@ -1,7 +1,7 @@
 #! /bin/bash
 mkdir .dookscript
 cd .dookscript || exit
-sudo apt-get install apparmor-* net-tools git apt-transport-https cmatrix neofetch firejail-* curl -y
+sudo apt-get install apparmor-* net-tools git apt-transport-https cmatrix neofetch firejail-* curl gpug -y
 sudo apt-get purge apparmor-notify -y --autoremove
 wget --https-only https://downloads.1password.com/linux/debian/amd64/stable/1password-latest.deb
 sudo dpkg -i 1password-latest.deb
