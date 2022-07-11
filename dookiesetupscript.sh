@@ -12,4 +12,3 @@ echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=
 sudo apt-get --fix-broken install -y && sudo apt install brave-browser -y && sudo aa-enfore /etc/apparmor.d/* && sudo firecfg
 sudo apt-get install zsh -y
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-rmdir .dookscript
