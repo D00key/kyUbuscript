@@ -13,4 +13,5 @@ curl -L -o VNC.deb https://www.realvnc.com/connect/download/binary/latest/debian
 sudo apt install -y ./VNC.deb && sudo vnclicense -add HJH22-N2R8C-W6XDA-YCQ66-9D6C3
 sudo apt-get install zsh -y
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-rmdir .dookscript || exit
+cd || exit
+rmdir .dookscript 
